@@ -1,0 +1,4 @@
+To run this project
+
+docker build -t gauge/screenshot .
+docker run -it -v /path/to/gaugefolder:/vowels -P gauge/screenshot /bin/sh -c 'cd /vowels; gauge run specs'
